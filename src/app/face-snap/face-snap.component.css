@@ -1,0 +1,47 @@
+img{
+    width: 500px;
+}
+.facesnap {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-shadow: lightgray 4px 4px 20px;
+}
+.facesnap img {
+  width: 100%;
+}
+.facesnap h1 {
+  margin-bottom: 0;
+}
+.facesnap p {
+  font-weight: 300;
+  font-size: 16px;
+}
+.facesnap button {
+  background-color: transparent;
+  box-sizing: border-box;
+  padding: 3px 10px;
+  border: none;
+  box-shadow: rgb(19, 17, 17) 3px 3px 7px;
+  margin-right: 20px;
+  outline: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.facesnap button:active {
+  transform: translate(1px, 1px);
+  box-shadow: lightgray 0 0 5px;
+}
+
+.snapped {
+  background-color: rgba(208, 169, 240, 0.4);
+  color: rgb(200, 132, 221);
+}
+.snapped button {
+  box-shadow: rgb(206, 185, 240) 3px 3px 7px;
+  background-color: rgb(190, 174, 219);
+}
+.snapped button:active {
+  box-shadow: rgb(188, 192, 188) 0 0 5px;
+}
